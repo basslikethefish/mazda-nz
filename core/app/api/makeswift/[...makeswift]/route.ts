@@ -41,6 +41,41 @@ const handler = MakeswiftApiHandler(process.env.MAKESWIFT_SITE_API_KEY, {
         label: 'Roboto Mono',
         variants: defaultVariants,
       },
+      {
+        family: 'Mazda Type',
+        variants: [
+          {
+            weight: '400',
+            style: 'normal',
+            src: '/public/fonts/MazdaType-Regular.woff2',
+          },
+          {
+            weight: '400',
+            style: 'italic',
+            src: '/public/fonts/MazdaType-Italic.woff2',
+          },
+          {
+            weight: '500',
+            style: 'normal',
+            src: '/public/fonts/MazdaType-Medium.woff2',
+          },
+          {
+            weight: '500',
+            style: 'italic',
+            src: '/public/fonts/MazdaType-MediumItalic.woff2',
+          },
+          {
+            weight: '700',
+            style: 'normal',
+            src: '/public/fonts/MazdaType-Bold.woff2',
+          },
+          {
+            weight: '700',
+            style: 'italic',
+            src: '/public/fonts/MazdaType-BoldItalic.woff2',
+          },
+        ],
+      },
     ];
   },
 });
